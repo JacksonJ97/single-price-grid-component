@@ -6,4 +6,10 @@
 
 body {
     font-family: "Karla", sans-serif;
+    color: #98a6bd;
+    background-color: #e5eff5;
+}
+
+.card-container {
+    background-color: #fff;
 }
