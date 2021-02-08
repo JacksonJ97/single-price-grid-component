@@ -104,3 +104,39 @@ body {
     font-size: 0.85rem;
     line-height: 1.5em;
 }
+
+@media (min-width: 750px) {
+    .card-container {
+        display: grid;
+        grid-template-rows: 47% 1fr;
+        grid-template-columns: 1fr 1fr;
+        max-width: 680px;
+    }
+
+    .card-heading {
+        font-size: 1.5rem;
+    }
+
+    .card-subheading {
+        font-size: 1.1rem;
+        margin-bottom: 0.5em;
+    }
+
+    .card-body {
+        font-size: 1rem;
+    }
+
+    .section-one {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        padding: 2em;
+    }
+
+    .section-two {
+        padding: 2em;
+    }
+
+    .section-three {
+        padding: 2em;
+    }
+}
