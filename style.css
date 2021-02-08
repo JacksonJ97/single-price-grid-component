@@ -2,14 +2,105 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Karla", sans-serif;
 }
 
 body {
-    font-family: "Karla", sans-serif;
-    color: #98a6bd;
-    background-color: #e5eff5;
+    color: rgb(229, 239, 245);
+    background-color: rgb(229, 239, 245);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card-container {
-    background-color: #fff;
+    max-width: 85%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.card-heading {
+    font-size: 1.25rem;
+    color: rgb(42, 178, 175);
+    margin-bottom: 1em;
+}
+
+.card-subheading {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1em;
+}
+
+.card-body {
+    font-size: 0.85rem;
+    line-height: 1.75em;
+}
+
+.highlighted-subheading {
+    color: rgb(192, 223, 52);
+}
+
+.highlighted-text {
+    color: rgb(152, 166, 189);
+}
+
+.enlarge {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.opacity {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.section-one {
+    padding: 1.75em 1.25em;
+}
+
+.section-two {
+    background-color: rgb(42, 178, 175);
+    padding: 1.75em 1.25em;
+}
+
+.card-price {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    margin-bottom: 0.5em;
+}
+
+.sign-up-btn {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(192, 223, 52);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    padding: 0.85em 6.75em;
+    margin-top: 1.25em;
+}
+
+.sign-up-btn:hover {
+    color: rgb(152, 166, 189);
+    background-color: rgb(221, 245, 117);
+}
+
+.section-three {
+    background-color: rgba(42, 178, 175, 0.85);
+    padding: 1.75em 1.25em;
+}
+
+.card-list {
+    list-style: none;
+}
+
+.card-list-item {
+    font-size: 0.85rem;
+    line-height: 1.5em;
 }
